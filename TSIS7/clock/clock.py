@@ -17,7 +17,7 @@ hand = pygame.image.load("D:\wamp64\www\PP2\TSIS7\clock\images\minute.png")
 hand1 = pygame.image.load("D:\wamp64\www\PP2\TSIS7\clock\images\second.png")
 
 
-mickey = pygame.transform.scale(mickey, (H, W))
+mickey = pygame.transform.scale(mickey, (H, W))                                                                                                                                                                                                                                                                                     
 hand = pygame.transform.scale(hand, (H / 2, W / 2))
 hand1 = pygame.transform.scale(hand1, (H / 2, W / 2))
 clock = pygame.time.Clock()

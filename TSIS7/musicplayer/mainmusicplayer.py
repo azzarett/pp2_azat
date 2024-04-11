@@ -7,8 +7,8 @@ screen = pygame.display.set_mode((444, 200))
 pygame.display.set_caption("AIU MusicPlayer")
 
 
-music_files = ["D:\wamp64\www\PP2\TSIS7\musicplayer\sounds\song_1.mp3", "D:\wamp64\www\PP2\TSIS7\musicplayer\sounds\song_2.mp3",
-               "D:\wamp64\www\PP2\TSIS7\musicplayer\sounds\song_3.mp3", "D:\wamp64\www\PP2\TSIS7\musicplayer\sounds\song_4.mp3"]
+music_files = ["D:\wamp64\www\PP2\TSIS7\musicplayer\sounds\song5.mp3", "D:\wamp64\www\PP2\TSIS7\musicplayer\sounds\song6.mp3",
+               "D:\wamp64\www\PP2\TSIS7\musicplayer\sounds\song7.mp3", "D:\wamp64\www\PP2\TSIS7\musicplayer\sounds\song8.mp3"]
 current_music = 0
 pygame.mixer.music.load(music_files[current_music])
 
