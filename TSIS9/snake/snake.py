@@ -16,7 +16,7 @@ speed = 1
 score = 1
 
 TIME_LIMIT = pygame.USEREVENT + 1
-pygame.time.set_timer(TIME_LIMIT, 3000)
+pygame.time.set_timer(TIME_LIMIT, 6000)
 
 WHITE = (255, 255, 255)
 GREEN = (0, 255, 0)
@@ -117,7 +117,7 @@ def main():
 
             # Increase speed after certain score
             if score % 4 == 0:
-                speed += 49+0
+                speed += 15+0
                 snake.color = random.choice([GREEN, (0,255,255), (255,255,0)]) # Change snake color
                 clock.tick(8 + speed) # Increase speed
 
